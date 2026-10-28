@@ -1,0 +1,18 @@
+{
+ "set": "heldout",
+ "n": 40,
+ "category": 39,
+ "billable": 40,
+ "review_routing": 37,
+ "all_correct": 36,
+ "duplicates": {
+  "caught": 2,
+  "missed": 0,
+  "false_flags": 0
+ },
+ "review": {
+  "caught": 9,
+  "missed": 2,
+  "unnecessary": 1
+ }
+}

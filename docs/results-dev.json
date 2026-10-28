@@ -1,0 +1,18 @@
+{
+ "set": "dev",
+ "n": 28,
+ "category": 27,
+ "billable": 28,
+ "review_routing": 28,
+ "all_correct": 27,
+ "duplicates": {
+  "caught": 1,
+  "missed": 0,
+  "false_flags": 0
+ },
+ "review": {
+  "caught": 8,
+  "missed": 0,
+  "unnecessary": 0
+ }
+}
