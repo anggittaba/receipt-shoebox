@@ -1,0 +1,2 @@
+{ "name": "receipt-shoebox", "version": "1.0.0", "private": true, "license": "MIT",
+  "scripts": { "test": "node --test tests/", "eval": "node scripts/evaluate.js heldout", "serve": "python3 -m http.server 8851 -d web" } }
