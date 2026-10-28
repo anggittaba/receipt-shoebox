@@ -27,7 +27,7 @@ Dark mode is the button in the top bar.
 ## What is "AI" and what is rules
 Being honest about this matters:
 
-- **The "AI part" in this demo is a rule and keyword engine** (`web/engine.js`, about 200 lines of plain JS). It is not a trained model and does no real OCR. Receipts come in as OCR-like text.
+- **The "AI part" in this demo is a rule and keyword engine** (`web/engine.js`, about 150 lines of plain JS). It is not a trained model and does no real OCR. Receipts come in as OCR-like text.
   - **Category:** keyword scoring per category, with a confidence based on the margin between the top two categories. Common OCR digit swaps (0→o, 4→a…) are normalised first.
   - **Billable:** yes when the note names a known client. A duplicate inherits billable status from the original.
   - **Duplicates:** same shop, same total, same text, within 2 days.
